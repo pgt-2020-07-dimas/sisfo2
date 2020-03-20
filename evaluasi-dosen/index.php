@@ -21,8 +21,8 @@
    $imax =count($smt);
    if(isset($_POST['pilih'])){
     $tahunakademik = $_POST['tahunakademik'];
-    $result = query("SELECT nama,mk,status,tahun from evaluasidosen where tahun="$tahunakademik);
-   }
+   //  $result = query("SELECT nama,mk,status,tahun from evaluasidosen where tahun="$tahunakademik);
+    }
 ?>
 <!doctype html>
 <html lang="en">
