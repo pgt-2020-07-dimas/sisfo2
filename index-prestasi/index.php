@@ -123,6 +123,7 @@
         <h2 class="mb-4">Rekapitulasi Nilai</h2>
         <!-- Div Data Mahasiswa  -->
     <div class="table-responsive">
+
       <table class="table  table-sm table-borderless">
             <tr>
             <td>NIM</td>
@@ -136,6 +137,12 @@
           </tr>
           </table>
           <br>
+          <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            Klik kolom semester untuk menampilkan rincian KHS.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
     <!-- Div Rekapitulasi Nilai  -->
           <table class="table table-striped table-hover table-bordered">
           <caption></caption>

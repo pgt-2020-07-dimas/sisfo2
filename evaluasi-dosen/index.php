@@ -47,6 +47,12 @@
           <h2 class="mb-4">Evaluasi Proses Perkuliahan</h2>
         </div>          
         <div class="container">
+          <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            Laman ini sedang dalam perbaikan. Mohon maaf atas ketidaknyamanannya.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
           <!--TABEL PILIH TAHUN-->
           <form method="post" action="">
               <table class="table-sm font-weight-bold ">

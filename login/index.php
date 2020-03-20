@@ -73,8 +73,9 @@
 				}
 
 			}
+			$error=true;
 		}
-		$error=true;
+		
 
 ?>
 
@@ -140,6 +141,10 @@
 						<div class="col text-right">							
 							<label class="form-check-label none" for="exampleCheck1" style="margin-right:10%;padding: 0;">Ingat saya</label>
 							<input type="checkbox" class="form-check-input none" id="exampleCheck1" name="remember">						
+								<?php if (isset($error)): ?>
+									<?= "<script>alert('Username atau Password salah!');document.location.href = '../';</script>"?>
+								<?php endif ?>
+
 						</div>
 						<br>
 					<br>

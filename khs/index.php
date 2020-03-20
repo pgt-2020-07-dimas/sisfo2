@@ -107,7 +107,7 @@
           <tr>
             <td>IP Akademik</td>
             <td>:</td>
-            <td><?=$ip;?></td>
+            <td><?=$ipk;?></td>
           </tr>
           <tr>
             <td>IP Magang</td>
